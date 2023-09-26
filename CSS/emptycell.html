@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empty Cell </title>
+
+  <style>
+
+    table .ex-1
+    {
+        empty-cells: show;
+    }
+
+    table .ex-2
+    {
+        empty-cells: hide;
+    }
+  </style>
+</head>
+<body>
+   <h2>empty-cell : show(default)</h2>
+   <table class="ex-1" border="1">
+    <tr>
+        <td>Akshay</td>
+        <td>Sathwara</td>
+    </tr>
+    <tr>
+        <td>Aakash</td>
+        <td></td>
+    </tr>
+   </table>
+
+
+
+   <h2>empty-cell : hidden</h2>
+   <table class="ex-2" border="1">
+    <tr>
+        <td>Akshay</td>
+        <td>Sathwara</td>
+    </tr>
+    <tr>
+        <td>Aakash</td>
+        <td></td>
+    </tr>
+   </table>
+</body>
+</html>
